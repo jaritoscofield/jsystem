@@ -1,0 +1,753 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+@font-face {
+	font-family: fontbase;
+	src: url("Helvetica Neue.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: fontsecundaria;
+	src: url("HelveticaLt.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+.menu-align {
+	width: 100%;
+	background-image: url(../img/layout/bg-menu.jpg);
+	background-repeat: no-repeat;
+}
+
+.menu {
+	width: 1000px;
+	height: 96px;
+	margin: 0 auto;
+}
+
+.logo h1 {
+	color: #9F19;
+	font-family: fontbase;
+	font-size: 29px;
+	line-height: 22px;
+	margin: 0;
+	padding-top: 1px;
+	text-shadow: 2px 2px 8px #666;
+}
+
+.logo h2 {
+	color: #FFF;
+	font-family: fontbase;
+	font-size: 15px;
+	padding: 5px 0 0 0;
+	text-shadow: 2px 2px 8px #333;
+}
+
+.menu ul {
+	height: 97px;
+	margin: 0 20px 0 0;
+}
+
+.menu li {
+	display: block;
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	font-family: fontbase;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 37px 30px 37px 30px;
+	border-bottom: 4px solid transparent;
+	border-top: 4px solid transparent;
+	text-shadow: 2px 2px 8px #333;
+
+}
+
+.menu li a:hover {
+	border-bottom: 4px solid #5ea600;
+	border-top: 4px solid #5ea600;
+	background-image: url(../img/layout/bg-menu-hover.png);
+}
+
+.menu-active {
+	border-bottom: 4px solid #5ea600 !important;
+	border-top: 4px solid #5ea600 !important;
+	background-image: url(../img/layout/bg-menu-hover.png);
+}
+
+.rodape-align {
+	width: 100%;
+	height: 155px;
+	position: absolute;
+	left: 0;
+	background-image: url(../img/layout/bg-main.jpg);
+	background-repeat: repeat-y;
+}
+
+.rodape-right {
+	width: 800px;
+	height: 155px;
+	background-image: url(../img/layout/bg-rodape-right.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	right: 0;
+}
+
+ .rodape-left {
+	width: 800px;
+	height: 155px;
+	background-image: url(../img/layout/bg-rodape-left.png);
+	background-repeat: repeat-x;
+	position: absolute;
+	left: 0;
+}
+
+.rodape {
+	width: 1000px;
+	height: 155px;
+	background-image: url(../img/layout/bg-rodape.png);
+	background-repeat: no-repeat;
+	float: left;
+	position: absolute;
+	margin-left: -500px;
+	left: 50%;
+}
+
+.rodape-e {
+	width: 500px;
+	height: 155px;
+	float: left;
+}
+
+.rodape-e p {
+	font-family: fontbase;
+	font-size: 16px;
+	color: #FFF;
+	margin: 48px 0 0 100px;
+	line-height: 25px;
+	text-align: justify;
+	text-shadow: 2px 2px 8px #333;
+}
+
+.rodape-e p span {
+	color: #5ea600;
+}
+
+
+.rodape-d {
+	width: 500px;
+	height: 155px;
+	float: left;
+}
+
+.rodape-d .p1{
+	color: #4c4c4c;
+	margin: 42px 0 0 180px;
+	font-size: 13px;
+}
+
+.rodape-d .p2{
+	color: #4c4c4c;
+	margin: 27px 0 0 155px;
+	font-size: 13px;
+}
+
+.rodape-d .p3{
+	color: #4c4c4c;
+	margin: 17px 0 0 110px;
+	font-size: 13px;
+}
+
+.sub-rodape-align {
+	width: 100%;
+	margin-top: 155px;
+	background-image: url(../img/layout/bg-sub-rodape.png);
+	background-repeat: repeat-x;
+
+}
+
+.sub-rodape {
+	width: 1000px;
+	height: 34px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.sub-rodape p {
+	text-align: center;
+	font-family: fontbase;
+	font-size: 13px;
+	color: #FFF;
+	padding-top: 10px;
+}
+
+.t-pagina-align {
+	width: 100%;
+	min-height: 50px;
+	background-image: url(../img/layout/bg-t1.jpg);
+	background-repeat: repeat-x;
+}
+
+.t-pagina-align h4 {
+	color: #666;
+	font-family: fontbase;
+	font-size: 15px;
+	line-height: 25px;
+	margin: -3px 0 5px 6px;
+	font-weight: bold;
+}
+
+.t-pagina {
+	width: 1000px;
+	min-height: 50px;
+	margin: 0 auto;
+}
+
+.t-pagina p {
+	color: #5ea600;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px #333;
+	line-height: 30px;
+	margin-left: 5px;
+	padding-top: 10px;
+}
+
+.main {
+	width: 100%;
+	min-height: 400px;
+	background-image: url(../img/layout/bg-main.jpg);
+	background-repeat: repeat-y;
+	border-top: 1px solid #EAEAEA;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.bloco-1 {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #FFF;
+	box-shadow: 2px 2px 8px #999;
+	position: relative;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.bloco-1 h6 {
+	color: #666;
+	font-family: fontbase;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 30px;
+	line-height: 25px;
+}
+
+.bloco-1 p {
+	color: #666;
+	font-family: fontbase;
+	font-size: 13px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-left: 30px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+
+.bloco-1 p img {
+	float: right;
+	margin-left: 15px;
+}
+
+.bloco-1-tl {
+	width: 57px;
+	height: 266px;
+	background-image: url(../img/layout/block-1-tl.png);
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+	position: absolute;
+	margin-left: -20px;
+	margin-top: -18px;
+}
+
+.bloco-1-br {
+	width: 269px;
+	height: 53px;
+	background-image: url(../img/layout/block-1-br.png);
+	background-repeat: no-repeat;
+	right: 0;
+	bottom: 0;
+	position: absolute;
+	margin-right: -26px;
+	margin-bottom: -22px;
+}
+
+.logo {
+	width: 200px;
+	padding-top: 25px;
+	float: left;
+	margin-left: 5px;
+}
+
+.logo-ebramonte {
+	width: 200px;
+	height: 48px;
+	background-image: url(../img/layout/logo-sermonti.png);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.servicos img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 25px;
+	margin-right: 10px;
+}
+
+.servicos ul {
+	list-style-type: disc;
+	margin-left: 50px;
+}
+
+.servicos li {
+	line-height: 30px;
+	font-size: 14px;
+	font-family: fontbase;
+        text-transform: uppercase;
+        color: #666;
+}
+
+.obras-realizadas {
+
+}
+
+.obra-bloco-1 {
+	width: 910px;
+	border: 1px solid #CCC;
+	padding: 4px 4px 4px 4px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	position: relative;
+	float: left;
+        box-shadow: 2px 2px 3px #EAEAEA;
+}
+
+.obra-bloco-1 img {
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+}
+
+.obra-bloco-1 p {
+	color: #333;
+	font-family: fontbase;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 0 10px;
+	width: 210px;
+	float: left;
+}
+
+.obra-bloco-1-texto {
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.obra-bloco-1 p span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.obra-bloco-5-texto {
+    margin-left: 30px;
+}
+.obra-text-container {
+    float: left;
+    width: 700px;
+    color: #666;
+    min-height: 130px;
+}
+.veja-mais-obra {
+	background-image: url(../img/layout/veja-mais.png);
+	background-repeat: no-repeat;
+	padding: 2px 26px 3px 0px;
+	text-decoration: none;
+	color: #5ea600;
+	font-size: 13px;
+	position: absolute;
+        right: 3px;
+        bottom: 0;
+}
+
+.contato {
+	margin-left: 40px;
+        min-height: 320px;
+        position: relative;
+}
+
+.img-1-contato {
+    position: absolute;
+    right: 160px;
+    bottom: 20px;
+}
+
+.img-2-contato {
+    position: absolute;
+    right: 160px;
+    bottom: 5px;
+}
+
+.contato input {
+	display: block;
+	padding: 5px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 5px #EAEAEA;
+	font-family: fontbase;
+	font-size: 14px;
+}
+
+.contato-submit {
+	background-color: #929191;
+	padding: 5px 10px 5px 10px !important;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #333;
+	border: 1px solid #999;
+	margin-left: 250px;
+}
+
+.contato-submit:hover {
+	background-color: #666;
+}
+
+.contato textarea {
+	display: block;
+	padding: 5px;
+	margin-bottom: 12px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+	box-shadow: 1px 1px 5px #EAEAEA;
+	font-family: fontbase;
+	font-size: 14px;
+}
+
+.contato h3 {
+	color: #666;
+	font-family: fontbase;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.obra p {
+	color: #333;
+	font-family: fontbase;
+	font-size: 15px;
+	line-height: 20px;
+	margin: 0 0 0 30px;
+}
+
+.galeria-obra {
+	width: 925px;
+	margin: 10px 0 20px 30px;
+}
+
+.gal {
+	float: left;
+}
+
+.gal img {
+	box-shadow: 2px 2px 6px #999;
+	background-color: #FFF;
+	padding: 4px;
+}
+
+.gal-a {
+	float: left;
+	margin: 0 16px 15px 0
+}
+
+.home-ultimas-noticias {
+	width: 1000px;
+	height: 490px;
+	background-image: url(../img/layout/home-bg-1g.png);
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	position: relative;
+}
+
+.home-ultimas-noticias h2 {
+	color: #FFF;
+	font-family: fontbase;
+	font-size: 17px;
+	margin: 0px 0 0 33px;
+	padding-top: 5px;
+	text-shadow: 2px 2px 2px #333;
+}
+
+.bloco-obra-capa h3 {
+	color: #666;
+	font-family: fontbase;
+	font-size: 15px;
+}
+
+.bloco-obra-capa p {
+	color: #666;
+	font-family: fontbase;
+	font-size: 15px;
+}
+
+.obra-capa {
+	position: relative;
+	float: left;
+	width: 264px;
+	height: 453px;
+}
+
+.obra-capa p {
+	color: #999;
+	font-size: 13px;
+	text-align: center;
+	width: 220px;
+	margin: 3px 0 0 25px;
+	line-height: 20px;
+}
+
+.obra-capa h3 {
+	color: #666;
+        font-size: 13px;
+        font-weight: bold;
+        width: 265px;
+        text-align: center;
+        line-height: 18px;
+        text-transform: uppercase;
+        height: 60px;
+        top: 28px;
+        position: absolute;
+}
+
+.obra-capa h3 a{
+    text-decoration: none;
+    color: #666;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.obra-capa h3 a:hover{
+    color: #333;
+}
+
+.obra-capa-img{
+    padding: 0px; width: 264px; min-height: 183px; top: 113px;position: absolute;
+}
+.obra-capa-resumo{
+    width: 264px; position: absolute; top: 300px
+}
+.obra-capa-resumo div {
+    color: #999;
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 5px 0;
+    line-height: 20px;
+}
+.obra-capa img {
+	width: 264px;
+}
+
+.b1 {
+	margin: 0 0 0 72px;
+}
+
+.b2 {
+	margin: 0 0 0 45px;
+}
+
+.b3 {
+	margin: 0 0 0 46px;
+}
+
+.b1 .veja-mais-home {
+	margin-right: -2px;
+}
+
+.b2 .veja-mais-home {
+	margin-right: -3px;
+}
+
+.b3 .veja-mais-home {
+	margin-right: -3px;
+}
+
+.veja-mais-home {
+	background-image: url(../img/layout/veja-mais-home.jpg);
+	background-repeat: no-repeat;
+	padding: 12px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-bottom: -4px;
+}
+
+.home-clientes {
+	width: 983px;
+	height: 274px;
+	background-image: url(../img/layout/home-bg-2g.png);
+	background-repeat: no-repeat;
+	margin: 20px auto 0px;
+}
+
+.home-clientes h2 {
+	color: #FFF;
+	font-family: fontbase;
+	font-size: 17px;
+	margin: 0px 0 0 15px;
+	padding-top: 5px;
+	text-shadow: 2px 2px 2px #333;
+}
+
+.bg-left-ultimas-obras {
+	width: 480px;
+	height: 237px;
+	background-image: url(../img/layout/home-bg-4g.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: -479px;
+	top: 122px;
+}
+
+.bg-right-clientes {
+	width: 524px;
+	height: 194px;
+	background-image: url(../img/layout/home-bg-3g.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	right: -513px;
+	top: 510px;
+}
+
+.transicao-imagens {
+	width: 580px;
+	height: 369px;
+	background-image: url(../img/layout/bg-imagem-topo.png);
+	background-repeat: no-repeat;
+	margin: 20px 0 10px 0;
+	float: left;
+}
+
+.topo-textos h2 {
+	color: #686868;
+	font-family: fontbase;
+	font-size: 24px;
+	float: left;
+	width: 410px;
+	margin: 55px 0 0 10px;
+	text-align: justify;
+	line-height: 32px;
+	text-shadow: 1px 1px 5px #EAEAEA;
+}
+
+.topo-textos h2 span {
+	color: #5ea600;
+}
+
+.topo-textos h3 {
+	color: #666;
+	font-family: fontbase;
+	font-size: 17px;
+	text-align: justify;
+	margin: 25px 25px 15px 35px;
+	width: 360px;
+	float: left;
+	line-height: 22px;
+	text-shadow: 1px 1px 5px #EAEAEA;
+}
+
+.t1-obras-realizadas {
+	font-weight: bold;
+	width: 700px !important;
+	margin: 0 0 3px 0px!important;
+	font-size: 20px !important;
+	color: #666 !important;
+}
+
+.t1-obras-realizadas a {
+    text-decoration: none;
+    color: #666;
+}
+
+.t1-obras-realizadas a:hover {
+    color: #333;
+}
+
+.obra-bloco-1-texto-2 {
+        width: 100%;
+}
+
+.obra-bloco-1-texto-3 {
+        width: 910px;
+        float: left;
+}
+
+.laranja-limao {
+	background-image: url(../img/layout/laranja-limao.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	display: block;
+	right: 0;
+	top: 0;
+	position: absolute;
+	height: 24px;
+	width: 155px;
+	margin: 6px 0 0 0;
+}
+
+.galeria-obra-topo {
+	width: 800px;
+        height: 600px;
+        float: left;
+        border: 1px solid #EAEAEA;
+        border-radius: 5px;
+        margin: 10px 0 20px 45px;
+        box-shadow: 2px 2px 6px #CCC;
+        padding: 7px;
+}
+
+.galeria-obra .carousel .carousel-inner {
+	width: 800px;
+        height: 600px;
+}
+
+.noticias-editor {
+    margin-bottom: 15px;
+}
+
+.titulo-1 {
+    width: 900px !important;
+}
+
+.ordenacao-obras {
+    
+}
+
+.ordenacao-obras li {
+    width: 500px;
+    background-color: red;
+}

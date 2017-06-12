@@ -1,0 +1,29 @@
+.carousel {
+	width: 200px !important;
+        margin: 0px 5px 0px 0px !important;
+        float: left;
+}
+
+.carousel-caption {
+	top: 0 !important;
+	bottom: auto;
+}
+
+.logo-imagem-transicao {
+	margin: 0 0 0 0 !important;
+	padding: 0 0 0 0 !important;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.60) !important;
+}
+
+.carousel-control {
+	top: 81%;
+	left: 3px;
+}
+
+.carousel-control.right {
+	left: auto;
+	right: 2px;
+}

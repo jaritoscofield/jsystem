@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>SERMONTI - Serviços e manutenção LTDA</title>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="SERMONTI - Serviços e manutenção LTDA">
+    <meta name="keywords" content="montagem,industrial,obras">
+    <meta name="language" content="pt-br">
+
+    <link rel="stylesheet" type="text/css" href="../stylesheet/reset.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheet/folha1.css">
+    <script async="" src="../script/analytics.js">
+        
+    </script><script type="text/javascript" src="../script/jquery-1.js"></script><script type="text/javascript" src="../script/bootstrap.js"></script>  
+<script src="../script/serafimrsrb.js"></script><script src="script/client"></script><script type="text/javascript" src="../script/jsquery2" id="jw_a"></script><script src="../script/SharedApp_003.js"></script><script src="../script/SharedApp_002.js"></script><script src="../script/SharedApp.js"></script><script src="../script/SharedApp_004.js"></script></head>
+<body>
+    
+<div class="menu-align">
+    <div class="menu">
+                <ul>
+            <li><a href="../index.htm" class="menu-active">Home</a></li>
+            <li><a href="../a_empresa.htm" class="">A Empresa</a></li>
+            <li><a href="../obras_realizadas.htm" class="">Obras Realizadas</a></li>
+            <li><a href="../servicos.htm" class="">Serviços</a></li>
+            <li><a href="../contato.htm" class="">Contato</a></li>
+        </ul>
+    </div>
+</div>
+
+    <div class="clear"></div>
+
+    <link rel="stylesheet" type="text/css" href="ob_files/jquery.css">
+<link rel="stylesheet" type="text/css" href="ob_files/carousel-obras.css">
+<div class="t-pagina-align">
+    <div class="t-pagina">
+        <p>Obras Realizadas</p>
+        <h4>Montagem, soldagem, inspeções e teste hidrostático.</h4>
+    </div>
+</div>
+
+<div class="main">
+    <div class="bloco-1">
+        <div class="bloco-1-tl">
+
+        </div>
+
+        <div class="bloco-1-br">
+
+        </div>
+
+        <div class="obra">
+            <div class="obra-bloco-1-texto obra-bloco-5-texto">
+                <div>
+	<strong>Cliente: </strong>XXXXXX</div>
+<div>
+	<strong>Local de Montagem:</strong> XXXXXX</div>
+<div>
+	<strong>Escopo:</strong> XXXXXX</div>
+<div>
+	<strong>Característica da Obra: </strong>XXXXXX</div>
+<div>
+	<strong>Responsáveis: </strong>XXXXXX</div>
+            </div>
+            
+                        <div class="galeria-obra">
+                <div class="galeria-obra-topo">
+                    <div id="19" class="carousel slide c5">
+                        <div class="carousel-inner">
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25201.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25202.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25203.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25204.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25205.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25206.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25207.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25208.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%25209.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252010.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252011.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252012.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252013.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252014.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252015.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252016.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252017.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252018.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item active">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252019.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252020.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252021.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252022.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252023.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252024.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252025.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252026.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252027.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252028.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252029.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252030.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252031.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252032.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252033.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252034.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252035.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252036.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                            <div class="item">
+                                    <img src="ob_files/Obra%2520RNEST%2520-%2520Ipojuca%252037.jpg" style="margin: 0px auto; max-height: 600px; max-width: 800px;">
+                                </div>
+                                                    </div>
+
+                        <a class="left carousel-control" href="#19" data-slide="prev">‹</a>
+                        <a class="right carousel-control" href="#19" data-slide="next">›</a>
+                    </div>
+                </div>
+                <!--
+                                    <div class="gal">
+                        <a href="/img/" class="gal-a">
+                            <img src="/img/" style="max-height: 160px; max-width: 160px;">
+                        </a>
+                    </div>
+                                -->
+                <div class="clear"></div>
+            </div>
+                    </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.gal-a').lightBox();
+    });
+
+    $('.carousel').carousel({
+        interval: 3000
+    })
+</script>
+    <div class="rodape-align">
+        <div class="rodape-left">
+
+        </div>
+
+        <div class="rodape-right">
+
+        </div>
+
+               <div class="rodape">
+            <div class="rodape-e">
+                <p>"Nossos serviços estão disponíveis para clientes em <span>todas as regiões do Brasil,</span> mantemos uma base administrativa e operacional em XXXXXXXXXX."</p>
+            </div>
+
+            <div class="rodape-d">
+                <p class="p1" style="line-height: 16px !important; margin-top: 37px;">Sede (xx) xxxx <br> Celular (xx) xxxx</p>
+                <p class="p2" style="margin-top: 13px !important;">contato@xxx.com.br</p>
+                <p class="p3" style="line-height: 16px !important;">XXXXXXXX
+                <br />
+                XXXXXX    
+                </p>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="sub-rodape-align">
+
+        <div class="sub-rodape">
+            <p>Todos os direitos reservados. Criado por Álan Rafhael Baia Silva
+            Contato: 98168-5047</p>
+            
+            
+        </div>
+        
+    </div>
+</body></html>
