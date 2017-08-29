@@ -1,22 +1,1 @@
-
-<?php
-
-    include_once 'Email.class.php';
-
-    $rsEmail = new Alerta();
-
-    $id = $_POST['id'];
-    $paga = $_POST['paga'];
-    $emailPara = $_POST['email'];
-    $nomePara = $_POST['nome'];
-    $assunto = "Monte do Ganhão - Aviso de receção de pagamento";
-    $emailDe = "montedoganhao@gmail.com";
-    $nomeDe = "Monte do Ganhão, Lda";
-    $descricao = "<h3>Encomenda {$id} paga</h3>";
-    $descricao .= "<p>Informamos o nosso cliente {$nomePara} que recebemos o pagamento da encomenda.</p>";
-    $descricao .= "<p>O envio será efectuado no mais curto espaço de tempo.</p>";
-    $descricao .= "<p>Obrigado pela sua preferência</p>";
-
-    echo $rsEmail->enviarEmail($assunto, $descricao, $emailDe, $nomeDe, $emailPara, $nomePara);
-
-
+<?php require 'phpmailer/PHPMailerAutoload.php';/*    include_once 'Email.class.php';    $rsEmail = new Alerta();    $emailPara = "pauloamserrano@gmail.com";    $nomePara = "Administração Sermonti";    $assunto = "Sermonti - Pedido de Contacto através do website";    $emailDe = "contato@sermonti.com.br";    $nomeDe = "Contacto via website";    $telefone = $_POST['telefone'];    $mensagem = $_POST['mensagem'];    $descricao = "<h3>O Sr. {$_POST['nome']} com o telefone {$telefone} deixou a seguinte mensagem:</h3>";    $descricao .= "<p>{$mensagem}</p>";    echo $rsEmail->enviarEmail($assunto, $descricao, $emailDe, $nomeDe, $emailPara, $nomePara);*///$mail->charSet = "UTF-8";$mail = new PHPMailer;//$mail->SMTPDebug = 3;                               // Enable verbose debug output$mail->isSMTP();                                      // Set mailer to use SMTP$mail->Host = 'mega.unio.pt';  // Specify main and backup SMTP servers$mail->SMTPAuth = true;                               // Enable SMTP authentication$mail->Username = 'contato@sermonti.com.br';                 // SMTP username$mail->Password = 'Admin123';                           // SMTP password$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted$mail->Port = 587;                                    // TCP port to connect to$mail->setFrom($_POST['email'], $_POST['nome']);$mail->addAddress('contato@sermonti.com.br', 'David');     // Add a recipient/*$mail->addAddress('ellen@example.com');               // Name is optional$mail->addReplyTo('info@example.com', 'Information');*/$mail->addBCC('jayrosystem@gmail.com');$mail->addBCC('pauloamserrano@gmail.com');/*$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments$mail->addAttachment('/tmp/image.jpg', 'new.jpg'); */   // Optional name$mail->isHTML(true);                                  // Set email format to HTML$mail->Subject = "Contacto de {$_POST['name']} através do website";$mail->Body    = "{$_POST['message']}";$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';if(!$mail->send()) {    $jsonResponse = array('status'=>false, 'mensagem'=>$mail->ErrorInfo);    echo json_encode($jsonResponse);} else {    $jsonResponse = array('status'=>true);    echo json_encode($jsonResponse);}

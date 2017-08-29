@@ -1,0 +1,12 @@
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^pagina-inicial$ index.php [QSA,L,NC]
+    RewriteRule ^empresa$ index.php?pagina=sobre [QSA,L,NC]
+    RewriteRule ^obras index.php?pagina=obras [QSA,L,NC]
+    RewriteRule ^servicos$ index.php?pagina=servicos [QSA,L,NC]
+    RewriteRule ^contato$ index.php?pagina=contato [QSA,L,NC]
+
+

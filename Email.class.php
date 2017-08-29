@@ -20,9 +20,9 @@ class Alerta
         // Define os dados do servidor e tipo de conexão
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
         $mail->IsSMTP(); // Define que a mensagem será SMTP
-        $mail->Host = "smtp.sermonti.com.br"; // Endereço do servidor SMTP
+        $mail->Host = "mega.unio.pt"; // Endereço do servidor SMTP
         $mail->SMTPAuth = true; // Autenticação
-        $mail->Username = 'contatocomercial@sermonti.com.br'; // Usuário do servidor SMTP
+        $mail->Username = 'contato@sermonti.com.br'; // Usuário do servidor SMTP
         $mail->Password = 'Admin123'; // Senha da caixa postal utilizada
         // Define o remetente
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -36,9 +36,10 @@ class Alerta
         $resultado1=$this->bd->executarSQL($sql1);
         while ($row = $resultado1->fetch(PDO::FETCH_ASSOC)) {
 
+
         }*/
 //        $mail->AddAddress('ciclano@site.net');
-        $mail->AddBCC('pauloamserrano@gmail.com', 'Paulo Serrano'); // Copia
+       // $mail->AddBCC('pauloamserrano@gmail.com', 'Paulo Serrano'); // Copia
         //$mail->AddBCC('pauloamserrano@gmail.com', 'Paulo Serrano'); // Cópia Oculta
         // Define os dados técnicos da Mensagem
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -59,20 +60,19 @@ class Alerta
         $mail->ClearAttachments();
         // Exibe uma mensagem de resultado
         if ($enviado) {
-//            echo "E-mail enviado com sucesso!";
-            return true;
+            $jsonResponse = array('status'=>true);
+            echo json_encode($jsonResponse);
         } else {
-//            echo "Não foi possível enviar o e-mail.";
-//            echo "<b>Informações do erro:</b> " . $mail->ErrorInfo;
-            return $mail->ErrorInfo;
+            $jsonResponse = array('status'=>false);
+            echo json_encode($jsonResponse);
+
         }
     }
 
 
-    function endAlerta()
+
+    /*function endAlerta()
     {
         $this->bd->fecharBD();
-    }
+    }*/
 }
-
-?>
